@@ -3,7 +3,7 @@ import Search_bar from "./components/home/search_bar";
 import Title from "./components/home/title";
 import Stats_List from "./components/stats_Box/stats_list";
 import Hints from "./components/home/hints";
-import { Separator } from "@/components/ui/separator"
+import { Separator } from "@/components/ui/separator";
 
 export default function GTP() {
   return (
@@ -11,7 +11,7 @@ export default function GTP() {
       <div className="w-full h-[5%] flex items-center justify-center bg-gray-200">
         <Title />
       </div>
-      <div className="w-full h-[60%] flex flex-col items-center justify-center mt bg-gray-300 space-y-4" >
+      <div className="w-full h-[60%] flex flex-col items-center justify-center mt bg-gray-300 space-y-4">
         <Hints />
         <Search_bar />
         <Separator className="my-2 w-[33%] bg-black" />
